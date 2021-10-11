@@ -1,0 +1,123 @@
+.title_d{
+	color: #8B4513;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 70px;
+	text-align: center;
+	background-color: #F0E68C;
+	margin:0 ;
+}
+.opisanie {
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 25px;
+}
+.food {
+	display: flex;
+	justify-content: space-between;
+	background-color: #F0E68C;
+	padding: 7% 7%;
+}
+
+.foood__item {
+	width: 290px;
+	background-color: #F0E68C;
+	position: relative;
+
+}
+
+.food__item:hover .food__img {
+	transform: translate3d(-10px, -10px, 0);
+}
+
+.food__item:hover .food__img img {
+	opacity: .1;
+
+}
+
+.food__item:hover .food__text {
+	opacity: 1;
+}
+.food__img {
+	background: linear-gradient(to bottom, #ffcc33, #fce38a);
+	transition: transform .2s linear;
+}
+
+.food__img img {
+	display: block;
+	transition: opacity .1s linear;
+}
+
+.food__text {
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	opacity: 0;
+
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 2;
+	transform: translate3d(0, -50%, 0);
+	transition: opacity .2s linear;
+}
+.food2 {
+	display: flex;
+	justify-content: space-between;
+	background-color: #F0E68C;
+	padding: 7% 7%;
+}
+\
+
+.foood__item2 {
+	width: 290px;
+	background-color: #F0E68C;
+	position: relative;
+
+}
+
+.food__item2:hover .food__img2 {
+	transform: translate3d(-10px, -10px, 0);
+}
+
+.food__item2:hover .food__img2 img {
+	opacity: .1;
+
+}
+
+.food__item2:hover .food__text2 {
+	opacity: 1;
+}
+.food__img2 {
+	background: linear-gradient(to bottom, #ffcc33, #fce38a);
+	transition: transform .2s linear;
+}
+
+.food__img2 img {
+	display: block;
+	transition: opacity .1s linear;
+}
+
+.food__text2 {
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	opacity: 0;
+
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 2;
+	transform: translate3d(0, -50%, 0);
+	transition: opacity .2s linear;
+}
+ li {
+ 	color: #F0E68C;
+ }
